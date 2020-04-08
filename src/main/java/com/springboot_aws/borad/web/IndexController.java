@@ -10,4 +10,9 @@ public class IndexController {
     public String idnex() {
         return "index";
     }
+
+    @GetMapping("/posts/save")
+    public String postsSave() {
+        return "posts-save";
+    /**/}
 }
